@@ -85,6 +85,7 @@
                     smoothedLandmarks[label][i].y += (p.y - smoothedLandmarks[label][i].y) * 0.45;
                     smoothedLandmarks[label][i].z += (p.z - smoothedLandmarks[label][i].z) * 0.1; 
                 });
+                
             }
             const pts = smoothedLandmarks[label];
             ctx.shadowBlur = 10; ctx.shadowColor = "#00f0ff";
